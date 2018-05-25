@@ -1,0 +1,16 @@
+a:hover{
+    text-decoration: none;
+}
+.slider{
+    margin-top: 52px;
+}
+.fa{
+    font-size: 17px;
+}
+.container{
+    max-width: 1200px;
+}
+.right{
+    font-size: 3.5vw;
+    color: aqua;
+}
