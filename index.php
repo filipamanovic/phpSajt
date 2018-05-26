@@ -10,6 +10,7 @@
     <link type="text/css" rel="stylesheet" href="https://bootswatch.com/3/spacelab/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link type="text/css" rel="stylesheet" href="css/style.css">
+    <link type="text/css" rel="stylesheet" href="css/footer.css">
 
     <title>Choice cafe</title>
 </head>
@@ -23,11 +24,11 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.php">
-                    <img align="brend" src="slike/brand.jpg" width="30" height="28"/>
-                </a>
-                <a class="navbar-brand" href="index.php" style="color: aqua">
-                    Choice cafe
+<!--                <a class="navbar-brand" href="index.php">-->
+<!--                    <img align="brend" src="slike/logo2.jpg" width="30" height="30"/>-->
+<!--                </a>-->
+                <a class="navbar-brand" href="index.php" style="color: aqua; font-size: 20px">
+                    Choice caffe
                 </a>
             </div>
             <div class="collapse navbar-collapse" id="navCollapse">
@@ -82,13 +83,13 @@
                     </div>
                 </div>
                 <div class="item">
-                    <img src="slike/slider/sliderslika1.jpg" alt="">
+                    <img src="slike/slider/sliderslika2.jpg" alt="">
                     <div class="carousel-caption right">
                         <a href="https://www.google.com" target="_blank">GOOGLE</a>
                     </div>
                 </div>
                 <div class="item">
-                    <img src="slike/slider/sliderslika1.jpg" alt="">
+                    <img src="slike/slider/sliderslika3.jpg" alt="">
                     <div class="carousel-caption right">
                         <button class="btn btn-warning">Nesto</button>
                     </div>
@@ -102,6 +103,75 @@
             </a>
         </div>
     </div>
+
+
+    <footer class="footer-distributed">
+
+        <div class="footer-left">
+
+            <h3>Company<span><img src="slike/logo.jpg" width="70" height="70" </span></h3>
+
+            <p class="footer-links">
+                <a href="#">Početna</a>
+                ·
+                <a href="#">Događaji</a>
+                ·
+                <a href="#">Cenovnik</a>
+                ·
+                <a href="#">Galerija</a>
+                ·
+                <a href="#">O autoru</a>
+                .
+                <a href="#">Dokumentacija</a>
+            </p>
+
+            <p class="footer-company-name">Choice caffe &copy; 2018</p>
+        </div>
+
+        <div class="footer-center">
+
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>Mekenzijeva 67</span> Beograd, Srbija</p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+38165 555-333</p>
+            </div>
+
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:support@company.com">choicecaffe12@gmail.com</a></p>
+            </div>
+
+        </div>
+
+        <div class="footer-right">
+
+            <p class="footer-company-about">
+                <span>Radno vreme:</span>
+<!--                Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.-->
+                Radnim danima 9:00 - 23:00 <br>
+                Subota 9:00 - 23:00 <br>
+                Nedelja 9:00 - 23:00
+            </p>
+
+            <div class="footer-icons">
+
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-github"></i></a>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
 
 
 
