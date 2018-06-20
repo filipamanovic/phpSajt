@@ -14,3 +14,44 @@ a:hover{
     font-size: 3.5vw;
     color: aqua;
 }
+.forma{
+    color: #5383d3;
+}
+.formaGreska{
+    color: crimson;
+}
+.navKorisnik{
+    padding-top: 15px;
+    color: aqua;
+}
+.hide-bullets {
+    list-style:none;
+    margin-left: -40px;
+    margin-top:20px;
+}
+
+.thumbnail {
+    padding: 0;
+    border: none;
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    width: 100%;
+}
+.galerijaDiv{
+    margin-top: 75px;
+}
+.galerijaPretraga{
+    text-align: center;
+    font-size: 22px;
+    color: cornflowerblue;
+}
+.cenovnik{
+    margin-top: 70px;
+}
+.panel-body{
+    padding: 0px;
+}
+
+
+
