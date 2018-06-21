@@ -25,6 +25,9 @@
                 <?php if(isset($_SESSION['korisnik'])): ?>
                 <li><a href="modules/logout.php">Logout</a></li>
                 <?php endif; ?>
+                <?php if(isset($_SESSION['korisnik']) && $_SESSION['korisnik']->naziv == "admin"): ?>
+                <li><a href="admin/index.php">Admin panel</a></>
+                <?php endif; ?>
             </ul>
             <ul class="nav navbar-nav navbar-right" style="display: -webkit-box;">
                 <li class="btn btn-social navKorisnik">

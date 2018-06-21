@@ -8,7 +8,7 @@
             <?php if(isset($_SESSION['korisnik'])): ?>
             <a href="<?= $_SERVER['PHP_SELF'].'?page=autor' ?>">O autoru</a>
             .
-            <a href="documentation3123.pdf" target="_blank">Dokumentacija</a>
+            <a href="DokumentacijaPhp.pdf" target="_blank">Dokumentacija</a>
             <?php endif; ?>
         </p>
         <p class="footer-company-name">Choice caffe &copy; 2018</p>
